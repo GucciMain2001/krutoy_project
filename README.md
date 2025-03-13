@@ -1,4 +1,6 @@
 # sv
+git config --global user.email "mail"
+git config --global user.name "name"
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
