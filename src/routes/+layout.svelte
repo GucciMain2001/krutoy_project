@@ -3,9 +3,7 @@
 import {Container, Styles} from '@sveltestrap/sveltestrap';
     const {children} = $props();
 </script>
-
 <Styles/>
-
 <Container>
     <Header/>
     {@render children()}

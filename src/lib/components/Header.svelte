@@ -3,7 +3,5 @@
 </script>
 
 <Navbar>
-    <NavbarBrand>Logo</NavbarBrand>
-
-    
+    <NavbarBrand>Logotip</NavbarBrand>
 </Navbar>
