@@ -1,7 +1,13 @@
 <script lang="ts">
-    import {Navbar, NavbarBrand} from '@sveltestrap/sveltestrap';
+    import {Nav, Navbar, NavbarBrand, NavItem, NavLink} from '@sveltestrap/sveltestrap';
 </script>
 
 <Navbar>
-    <NavbarBrand>Logotip</NavbarBrand>
+    <NavbarBrand href="/">Logotip</NavbarBrand>
+
+    <Nav>
+        <NavItem>
+            <NavLink href="/about">О нас</NavLink>
+        </NavItem>
+    </Nav>
 </Navbar>
