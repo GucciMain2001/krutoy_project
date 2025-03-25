@@ -2,6 +2,14 @@
 git config --global user.email "mail"
 git config --global user.name "name"
 
+
+Нужно сделать страницы:
+Главная
+О нас
+Наши контакты
+Регистрация
+Вход
+
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
 ## Creating a project
