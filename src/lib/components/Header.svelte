@@ -12,5 +12,8 @@
         <NavItem>
             <NavLink href="/contacts">О нас</NavLink>
         </NavItem>
+        <NavItem>
+            <NavLink href="/chorniy">Chorniy</NavLink>
+        </NavItem>
     </Nav>
 </Navbar>
