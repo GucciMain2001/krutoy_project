@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { GetToDos } from "$lib/store/ToDoStore";
-	import { Container } from "@sveltestrap/sveltestrap";
+	import { GetToDos,todos } from "$lib/store/ToDoStore";
+	import { Card, CardBody, Col, Container, Row } from "@sveltestrap/sveltestrap";
 	import { onMount } from "svelte";
 
     onMount(()=>{
@@ -15,5 +15,14 @@
 </svelte:head>
 
 <Container>
-
+    <Row>
+    {#each $todos as todo}
+    <Col md={2}>
+        <Card>
+            <CardBody>{todo.title}</CardBody>
+        </Card>
+    </Col>
+    {/each}
+</Row>
+        
 </Container>

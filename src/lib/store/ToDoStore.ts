@@ -5,5 +5,6 @@ export const todos = writable([]);
 
 export async function GetToDos(){
     const response = await TodosAPI.getTodos();
-    console.log(response);
+    // console.log(response.data);
+    todos.set(response.data);
 }
