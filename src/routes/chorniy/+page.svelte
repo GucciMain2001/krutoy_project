@@ -2,7 +2,6 @@
 	import { GetToDos,todos } from "$lib/store/ToDoStore";
 	import { Card, CardBody, Col, Container, Row } from "@sveltestrap/sveltestrap";
 	import { onMount } from "svelte";
-
     onMount(()=>{
         async function FetchTodos() {
             await GetToDos();
@@ -23,6 +22,5 @@
         </Card>
     </Col>
     {/each}
-</Row>
-        
+</Row>   
 </Container>
