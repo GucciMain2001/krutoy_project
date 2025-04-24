@@ -3,14 +3,14 @@
 </script>
 
 <Navbar>
-    <NavbarBrand href="/">Logotip</NavbarBrand>
+    <NavbarBrand href="/">Главная</NavbarBrand>
 
     <Nav>
         <NavItem>
             <NavLink href="/about">О нас</NavLink>
         </NavItem>
         <NavItem>
-            <NavLink href="/contacts">О нас</NavLink>
+            <NavLink href="/contacts">Контакты</NavLink>
         </NavItem>
         <NavItem>
             <NavLink href="/chorniy">Chorniy</NavLink>
